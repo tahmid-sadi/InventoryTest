@@ -151,6 +151,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -199,29 +202,6 @@
             <path>
               <item name="InventoryTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="InventoryTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InventoryTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InventoryTest" type="462c0819:PsiDirectoryNode" />
-              <item name="accounts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InventoryTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InventoryTest" type="462c0819:PsiDirectoryNode" />
-              <item name="accounts" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InventoryTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InventoryTest" type="462c0819:PsiDirectoryNode" />
-              <item name="accounts" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="accounts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InventoryTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InventoryTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Inventory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
