@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% include 'accounts/navbar.html' %}
+<div class="container-fluid">
+    <table class="table table-dark mt-3">
+        <thead>
+        <tr>
+            <th scope="col">Product Name</th>
+            <th scope="col">Number</th>
+            <th scope="col">Supplier</th>
+            <th scope="col">Previous Price</th>
+            <th scope="col">Current Price</th>
+            <th scope="col">Description</th>
+            <th scope="col">Status</th>
+            <th scope="col">Date Created</th>
+            <th scope="col">Employee</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for order in orders %}
+            <tr>
+                <td>{{ order.stocklist.Product_Name }}</td>
+                <td>{{ order.Number }}</td>
+                <td>{{ order.stocklist.Supplier }}</td>
+                <td>{{ order.stocklist.Previous_Price }}</td>
+                <td>{{ order.stocklist.Current_Price }}</td>
+                <td>{{ order.stocklist.Description }}</td>
+                <td>{{ order.Status }}</td>
+                <td>{{ order.Date_Created }}</td>
+                <td>{{ order.user.username }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

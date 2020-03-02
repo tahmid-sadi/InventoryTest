@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% include 'accounts/navbar.html' %}
+<div class="container">
+    <br>
+    {% for message in messages %}
+        {{ message }}
+    {% endfor %}
+    <br>
+    <br>
+    <table class="table table-dark mt-3">
+        <thead>
+        <tr>
+            <th scope="col">Product Name</th>
+            <th scope="col">Stock</th>
+            <th scope="col">Supplier</th>
+            <th scope="col">Previous Price</th>
+            <th scope="col">Current Price</th>
+            <th scope="col">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for product in products %}
+            <tr>
+                <td>{{ product.Product_Name }}</td>
+                <td>{{ product.Stock }}</td>
+                <td>{{ product.Supplier }}</td>
+                <td>{{ product.Previous_Price }}</td>
+                <td>{{ product.Current_Price }}</td>
+                <td>{{ product.Description }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
