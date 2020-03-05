@@ -9,6 +9,7 @@ class UserRegistrationForm(UserCreationForm):
         model = User
         fields = ['username', 'password1', 'password2']
 
+
 class StockListForm(ModelForm):
     class Meta:
         model = StockList
